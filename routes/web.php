@@ -23,4 +23,4 @@ Auth::routes(
     ['register' => false]
 );
 
-Route::get('/filesharing', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/filesharing', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
