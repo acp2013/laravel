@@ -20,5 +20,11 @@ class DatabaseSeeder extends Seeder
             'email' => 'andika.candra@lintasarta.co.id',
             'password' => Hash::make('P4ssword!23'),
         ]);
+        DB::table('users')->insert([
+            'name' => 'Faizal Rizkan',
+            'username' => 'fzk',
+            'email' => 'faizal.rizkan@lintasarta.co.id',
+            'password' => Hash::make('P4ssword!23'),
+        ]);
     }
 }

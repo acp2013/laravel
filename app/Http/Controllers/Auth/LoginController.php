@@ -11,7 +11,7 @@ class LoginController extends Controller
   
     use AuthenticatesUsers;
     
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/filesharing';
     /**
      * Create a new controller instance.
      *
